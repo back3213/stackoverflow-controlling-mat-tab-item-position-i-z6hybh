@@ -1,0 +1,29 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+.basic-container {
+  padding: 30px;
+}
+
+.version-info {
+  font-size: 8pt;
+  float: right;
+}
+/* 
+.mat-tab-label:last-child {
+  margin-left: auto;
+  height: 15px;
+} */
+
+.mat-tab-group {
+  height: 300px;
+}
+
+.mat-tab-header .mat-tab-list .mat-tab-label {
+  height: 15px;
+  align-items: center;
+}
